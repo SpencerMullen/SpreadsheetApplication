@@ -1,9 +1,7 @@
-# CS4530 Course Project - Spreadsheet Application
+
+# CS4530 Course Project
 ## Team 505
 Sebastian Wittrock, Spencer Mullen, Cynthia Cao, Vanessa Le
-
-## Deployed on render here:
-- 
 
 ## Installation Instructions
 
@@ -14,10 +12,8 @@ Sebastian Wittrock, Spencer Mullen, Cynthia Cao, Vanessa Le
 5. Run 'pnpm dev' to start the app
 6. To run model tests you can run pnpm test
 
-## Core Features
+## Miscellaneous Information
 
-The spreadsheet app supports numbers, strings, functions, references, and range expressions as inputs.
-To start writing in a cell, double click the cell you want to modify.
 To write references to other cells, write them of the form REF(A1), where A1 is the column letters then row number
 To write a Sum Range expression do SUM(A1..C1) where A1 is the start of the range and C1 is the end of the range
 To write Average Range expressions do AVERAGE(A1..C1) where A1 is the start of the range and C1 is the end of the range

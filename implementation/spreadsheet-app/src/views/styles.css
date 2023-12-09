@@ -1,0 +1,90 @@
+#root {
+    padding:0;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #d0d0d0;
+    padding: 0px !important;
+    height: 25px;
+}
+
+th {
+    text-align: center !important;
+    padding: 0 15px 0 15px !important;
+}
+
+input, .cell {
+    border: none;
+    border-radius: 0;
+    padding: 0px;
+    width: 80px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.selected {
+    background-color: #caeefc;
+}
+
+.action-bar {
+    padding: 12px 20px 12px 20px;
+}
+
+.button {
+    padding: 4px 8px 4px 8px;
+    background-color: #caeefc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #73d1f5;
+}
+
+.delete {
+    background-color: #ffc3b8;
+}
+
+.delete:hover {
+    background-color: #f2775e;
+}
+
+.gridContainer {
+    overflow: auto;
+}
+.filterBarContainer {
+    display: flex;
+    gap: 10px;
+    padding: 0px 0px 10px 20px;
+}
+.conditionalForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.condition {
+    text-align: center;
+}
+
+.styleRows {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.styleRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.editRow {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
