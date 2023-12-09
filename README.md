@@ -3,7 +3,7 @@
 Sebastian Wittrock, Spencer Mullen, Cynthia Cao, Vanessa Le
 
 ## Deployed on render here:
-- 
+- https://spreadsheet-app.onrender.com
 
 ## Installation Instructions
 
@@ -21,6 +21,7 @@ To start writing in a cell, double click the cell you want to modify.
 To write references to other cells, write them of the form REF(A1), where A1 is the column letters then row number
 To write a Sum Range expression do SUM(A1..C1) where A1 is the start of the range and C1 is the end of the range
 To write Average Range expressions do AVERAGE(A1..C1) where A1 is the start of the range and C1 is the end of the range
+Range expressions and references account for circular references errors where there can be loops in cell references
 
 ## Additional Features
 
